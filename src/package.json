@@ -1,0 +1,17 @@
+{
+  "name": "web-service",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-tests": "npm run lint",
+    "lint": "eslint *.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.246.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
